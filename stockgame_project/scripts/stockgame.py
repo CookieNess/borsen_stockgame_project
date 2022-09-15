@@ -1,8 +1,6 @@
-from functools import total_ordering
 from urllib.error import HTTPError
-from utils.stockgame_functions import *
+from stockgame_functions import *
 import pandas as pd
-import os
 import json
 from datetime import date
 from datetime import timedelta
@@ -72,7 +70,7 @@ def main():
     start_date = int(time.mktime((today - timedelta(days=MINUS_DAYS)).timetuple()))
     query = 'https://query1.finance.yahoo.com/v7/finance/download/{}?period1=' + str(start_date) + '&period2=' + str(end_date) + '&interval=1d&events=history&includeAdjustedClose=true'
     stock_tickers = extract_stock_tickers()
-    for i in range(4):
+    for i in range(len(stock_tickers)):
         lowest_point = winner_point_array.index(min(winner_point_array))
         try:
             stock_dict = get_points_of_stock(query.format(stock_tickers[i]))
