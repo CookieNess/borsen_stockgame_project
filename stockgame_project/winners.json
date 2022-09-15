@@ -1,0 +1,49 @@
+{
+    "winners_entries": [
+        {
+            "entry": {
+                "Date": "15/09/2022",
+                "stock0": {
+                    "stock_name": "BAS1V.HE",
+                    "total_points": 130389.06576499666
+                },
+                "stock1": {
+                    "stock_name": "CORE-D.ST",
+                    "total_points": 5553.384644878031
+                },
+                "stock2": {
+                    "stock_name": "TTALO.HE",
+                    "total_points": 4493.535269363523
+                },
+                "stock3": {
+                    "stock_name": "ORNBV.HE",
+                    "total_points": 9279.674798181386
+                },
+                "stock4": {
+                    "stock_name": "HART.CO",
+                    "total_points": 4642.442021387379
+                },
+                "stock5": {
+                    "stock_name": "LIME.ST",
+                    "total_points": 4271.3908144636525
+                },
+                "stock6": {
+                    "stock_name": "QTCOM.HE",
+                    "total_points": 15788.81104700397
+                },
+                "stock7": {
+                    "stock_name": "SWMA.ST",
+                    "total_points": 16999.220945402303
+                },
+                "stock8": {
+                    "stock_name": "NNIT.CO",
+                    "total_points": 21217.681558457243
+                },
+                "stock9": {
+                    "stock_name": "TIETOS.ST",
+                    "total_points": 6229.644146917766
+                }
+            }
+        }
+    ]
+}

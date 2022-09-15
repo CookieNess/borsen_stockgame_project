@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "trading-project"
+version = "0.1.0"
+description = ""
+authors = ["CookieNess <frederikkjaergaard@yahoo.dk>"]
+readme = "README.md"
+packages = [{include = "trading_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ccxt = "^1.93.43"
+pandas = "^1.4.4"
+DateTime = "^4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
