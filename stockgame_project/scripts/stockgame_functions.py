@@ -1,11 +1,12 @@
-def get_rsi(average_gain_percent_close, average_loss_percent_close):
-    if average_gain_percent_close == 0:
-        rs = average_loss_percent_close
-    elif average_loss_percent_close == 0:
-        rs = average_gain_percent_close
+def get_rsi(average_gain_close, average_loss_close):
+    if average_gain_close == 0:
+        return 100
+    elif average_loss_close == 0:
+        return 1
     else:
-        rs = average_gain_percent_close / (average_loss_percent_close*-1)
-    return 100 - (100 / (1 + rs))
+        rs = average_gain_close / (average_loss_close*-1)
+        rsi = 100 - (100 / (1 + rs))
+        return rsi
 
 def calc_rsi_points(rsi, RSI_THRESHOLD):
     if (rsi < RSI_THRESHOLD):

@@ -26,36 +26,37 @@ def get_points_of_stock(csv_path):
     support_price = market_data_df['Low'].mean() # Dips under, good buy
     resistance_price = market_data_df['High'].mean() # Goes over, time to sell
     average_volume = market_data_df['Volume'].mean()
-    percent_change_close = market_data_df['Close'].pct_change()
-    average_percent_change_close = percent_change_close.mean()
+    average_change_close = market_data_df['Close'].diff()
     number_of_days = len(market_data_df.index)
-    average_gain_percent_close = percent_change_close[percent_change_close >= 0].sum() / number_of_days
-    average_loss_percent_close = percent_change_close[percent_change_close <= 0].sum() / number_of_days
+    average_gain_close = average_change_close[average_change_close >= 0].sum() / number_of_days
+    average_loss_close = average_change_close[average_change_close <= 0].sum() / number_of_days
 
     # Get calculated points
     close_price = market_data_df['Close'].iloc[-1]
     volume_today = market_data_df['Volume'].iloc[-1]
-    rsi = get_rsi(average_gain_percent_close, average_loss_percent_close)
+    rsi = get_rsi(average_gain_close, average_loss_close)
+    if rsi < 0:
+        rsi = 1
     stock_info_dict = {
             'close_price' : close_price,
             'volume_today' : int(volume_today),
             'support_price' : support_price,
             'resistance_price' : resistance_price,
             'average_volume' : average_volume,
-            'average_percent_change_close' : average_percent_change_close,
-            'average_gain_percent' : average_gain_percent_close,
-            'average_loss_percent' : average_loss_percent_close,
+            'average_gain_percent' : average_gain_close,
+            'average_loss_percent' : average_loss_close,
             'RSI' : rsi
         }
-    if (rsi > 70 or (close_price > resistance_price and average_loss_percent_close != 0)):
+    if (rsi > 70 or (close_price > resistance_price and average_loss_close != 0)):
         is_buyable = False
         stock_info_dict['total_points'] = -1000
         return stock_info_dict
-    
     if (is_buyable):
         rsi_points = calc_rsi_points(rsi, RSI_THRESHOLD)
         support_points = calc_support_points(close_price, support_price)
-        apcc_points = calc_apcc_points(average_percent_change_close, average_volume, volume_today)
+        percent_change_close = market_data_df['Close'].pct_change()
+        average_change_percent_close = percent_change_close.mean()
+        apcc_points = calc_apcc_points(average_change_percent_close, average_volume, volume_today)
         total_points = rsi_points + support_points + apcc_points
         stock_info_dict['total_points'] = total_points
         return stock_info_dict
@@ -93,6 +94,5 @@ def main():
         winner_dict['entry'][('stock' + str(i))]['point_info'] = winner_other_info[i]
         winner_dict['entry'][('stock' + str(i))]['total_points'] = winner_point_array[i]
     write_to_json(winner_dict, 'stockgame_project/winners.json')
-
 if __name__ == '__main__':
     main()

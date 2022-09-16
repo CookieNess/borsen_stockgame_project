@@ -1,0 +1,1 @@
+python3 stockgame_project/scripts/stockgame.py

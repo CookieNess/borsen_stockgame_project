@@ -2,7 +2,7 @@
     "winners_entries": [
         {
             "entry": {
-                "Date": "15/09/2022",
+                "date": "15/09/2022",
                 "stock0": {
                     "stock_name": "BAS1V.HE",
                     "total_points": 130389.06576499666
@@ -42,6 +42,311 @@
                 "stock9": {
                     "stock_name": "TIETOS.ST",
                     "total_points": 6229.644146917766
+                }
+            }
+        },
+        {
+            "entry": {
+                "date": "15/09/2022",
+                "stock0": {
+                    "stock_name": "SWED-A.ST",
+                    "point_info": {
+                        "close_price": 149.600006,
+                        "volume_today": 4195553,
+                        "support_price": 144.56000060000002,
+                        "resistance_price": 147.4600006,
+                        "average_volume": 2992853.8,
+                        "average_gain_percent": 1.35,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3240.1973872069075
+                    },
+                    "total_points": 3240.1973872069075
+                },
+                "stock1": {
+                    "stock_name": "FLNG.OL",
+                    "point_info": {
+                        "close_price": 348.200012,
+                        "volume_today": 198520,
+                        "support_price": 319.8800048,
+                        "resistance_price": 332.35999760000004,
+                        "average_volume": 157012.4,
+                        "average_gain_percent": 7.040002400000003,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3226.4630603272817
+                    },
+                    "total_points": 3226.4630603272817
+                },
+                "stock2": {
+                    "stock_name": "NORVA.ST",
+                    "point_info": {
+                        "close_price": 32.150002,
+                        "volume_today": 29413,
+                        "support_price": 30.672000200000003,
+                        "resistance_price": 32.1829996,
+                        "average_volume": 21735.0,
+                        "average_gain_percent": 0.4300004000000001,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3235.3430560261168
+                    },
+                    "total_points": 3235.3430560261168
+                },
+                "stock3": {
+                    "stock_name": "TGS.OL",
+                    "point_info": {
+                        "close_price": 162.600006,
+                        "volume_today": 460370,
+                        "support_price": 152.6,
+                        "resistance_price": 157.8,
+                        "average_volume": 413997.0,
+                        "average_gain_percent": 2.540002400000003,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3211.2218334682857
+                    },
+                    "total_points": 3211.2218334682857
+                },
+                "stock4": {
+                    "stock_name": "",
+                    "point_info": {
+                        "close_price": 91.279999,
+                        "volume_today": 766041,
+                        "support_price": 85.836,
+                        "resistance_price": 89.623999,
+                        "average_volume": 606443.8,
+                        "average_gain_percent": 1.3,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3226.335680386353
+                    },
+                    "total_points": 3226.335680386353
+                },
+                "stock5": {
+                    "stock_name": "IAR-B.ST",
+                    "point_info": {
+                        "close_price": 162.399994,
+                        "volume_today": 121177,
+                        "support_price": 151.0,
+                        "resistance_price": 159.3600006,
+                        "average_volume": 57085.2,
+                        "average_gain_percent": 2.759997599999997,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3312.29652643204
+                    },
+                    "total_points": 3312.29652643204
+                },
+                "stock6": {
+                    "stock_name": "BETCO.ST",
+                    "point_info": {
+                        "close_price": 152.600006,
+                        "volume_today": 39963,
+                        "support_price": 144.1200012,
+                        "resistance_price": 150.0399994,
+                        "average_volume": 35677.4,
+                        "average_gain_percent": 2.640002400000003,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3212.0351632588954
+                    },
+                    "total_points": 3212.0351632588954
+                },
+                "stock7": {
+                    "stock_name": "EMIL-B.ST",
+                    "point_info": {
+                        "close_price": 30.9,
+                        "volume_today": 12725,
+                        "support_price": 29.4010002,
+                        "resistance_price": 30.739000000000004,
+                        "average_volume": 8431.0,
+                        "average_gain_percent": 0.26400000000000007,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3250.9420702238012
+                    },
+                    "total_points": 3250.9420702238012
+                },
+                "stock8": {
+                    "stock_name": "EQNR.OL",
+                    "point_info": {
+                        "close_price": 370.899994,
+                        "volume_today": 4932369,
+                        "support_price": 354.9300048,
+                        "resistance_price": 365.85999760000004,
+                        "average_volume": 4346252.0,
+                        "average_gain_percent": 3.359997599999997,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3213.4972362244553
+                    },
+                    "total_points": 3213.4972362244553
+                },
+                "stock9": {
+                    "stock_name": "TTALO.HE",
+                    "point_info": {
+                        "close_price": 8.99,
+                        "volume_today": 80440,
+                        "support_price": 8.75,
+                        "resistance_price": 8.894,
+                        "average_volume": 58779.4,
+                        "average_gain_percent": 0.06400000000000006,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3236.859784060395
+                    },
+                    "total_points": 3236.859784060395
+                },
+                "stock10": {
+                    "stock_name": "AOI.ST",
+                    "point_info": {
+                        "close_price": 21.879999,
+                        "volume_today": 2890345,
+                        "support_price": 20.571999599999998,
+                        "resistance_price": 21.2960002,
+                        "average_volume": 1977404.8,
+                        "average_gain_percent": 0.4,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3246.19301388874
+                    },
+                    "total_points": 3246.19301388874
+                },
+                "stock11": {
+                    "stock_name": "GOGL.OL",
+                    "point_info": {
+                        "close_price": 96.059998,
+                        "volume_today": 1578127,
+                        "support_price": 88.3480008,
+                        "resistance_price": 91.5880004,
+                        "average_volume": 1219904.4,
+                        "average_gain_percent": 2.255999799999998,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3229.3965935221836
+                    },
+                    "total_points": 3229.3965935221836
+                },
+                "stock12": {
+                    "stock_name": "IVSO.ST",
+                    "point_info": {
+                        "close_price": 149.0,
+                        "volume_today": 26489,
+                        "support_price": 140.8799988,
+                        "resistance_price": 146.0399994,
+                        "average_volume": 15689.2,
+                        "average_gain_percent": 1.9200012000000015,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3268.852742454072
+                    },
+                    "total_points": 3268.852742454072
+                },
+                "stock13": {
+                    "stock_name": "QTCOM.HE",
+                    "point_info": {
+                        "close_price": 43.040001,
+                        "volume_today": 258562,
+                        "support_price": 44.8639998,
+                        "resistance_price": 47.8380004,
+                        "average_volume": 251770.6,
+                        "average_gain_percent": 0.0020004000000000133,
+                        "average_loss_percent": -1.0520004,
+                        "RSI": 0.18979112729326175,
+                        "total_points": 17294.443197791512
+                    },
+                    "total_points": 17294.443197791512
+                },
+                "stock14": {
+                    "stock_name": "PGS.OL",
+                    "point_info": {
+                        "close_price": 8.45,
+                        "volume_today": 21629254,
+                        "support_price": 7.609,
+                        "resistance_price": 8.066,
+                        "average_volume": 16341334.6,
+                        "average_gain_percent": 0.1879999999999999,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3232.3893119090153
+                    },
+                    "total_points": 3232.3893119090153
+                },
+                "stock15": {
+                    "stock_name": "NOR.OL",
+                    "point_info": {
+                        "close_price": 423.5,
+                        "volume_today": 145040,
+                        "support_price": 365.3,
+                        "resistance_price": 389.3,
+                        "average_volume": 108694.4,
+                        "average_gain_percent": 13.1,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3233.4814647671756
+                    },
+                    "total_points": 3233.4814647671756
+                },
+                "stock16": {
+                    "stock_name": "SUBC.OL",
+                    "point_info": {
+                        "close_price": 91.279999,
+                        "volume_today": 766041,
+                        "support_price": 85.836,
+                        "resistance_price": 89.623999,
+                        "average_volume": 606443.8,
+                        "average_gain_percent": 1.3,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3226.335680386353
+                    },
+                    "total_points": 3226.335680386353
+                },
+                "stock17": {
+                    "stock_name": "KIND-SDB.ST",
+                    "point_info": {
+                        "close_price": 95.860001,
+                        "volume_today": 1080131,
+                        "support_price": 92.0839996,
+                        "resistance_price": 95.1800002,
+                        "average_volume": 611789.4,
+                        "average_gain_percent": 1.0520005999999995,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3276.566974817809
+                    },
+                    "total_points": 3276.566974817809
+                },
+                "stock18": {
+                    "stock_name": "WAWI.OL",
+                    "point_info": {
+                        "close_price": 59.700001,
+                        "volume_today": 698050,
+                        "support_price": 56.370000600000004,
+                        "resistance_price": 58.5700006,
+                        "average_volume": 631180.0,
+                        "average_gain_percent": 0.9900002000000001,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3210.6165263895427
+                    },
+                    "total_points": 3210.6165263895427
+                },
+                "stock19": {
+                    "stock_name": "2020.OL",
+                    "point_info": {
+                        "close_price": 94.5,
+                        "volume_today": 257782,
+                        "support_price": 85.7399994,
+                        "resistance_price": 90.3800004,
+                        "average_volume": 209076.0,
+                        "average_gain_percent": 2.3199996,
+                        "average_loss_percent": 0.0,
+                        "RSI": 1,
+                        "total_points": 3223.329234376813
+                    },
+                    "total_points": 3223.329234376813
                 }
             }
         }
