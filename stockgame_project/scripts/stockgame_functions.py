@@ -9,9 +9,9 @@ def get_rsi(average_gain_close, average_loss_close):
         return rsi
 
 def calc_rsi_points(rsi, RSI_THRESHOLD):
+    # ? Maybe divide return by 10?
     if (rsi < RSI_THRESHOLD):
-        change = RSI_THRESHOLD - rsi
-        return ((change/rsi) * 100)
+        return RSI_THRESHOLD - rsi
     else:
         return 0
 
@@ -24,7 +24,7 @@ def calc_support_points(close_price, support_price):
 
 def calc_apcc_points(average_percent_change_close, average_volume, volume_today):
     change = volume_today - average_volume
-    return ((change/average_volume) * 100) + average_percent_change_close
+    return (((change/average_volume) * 100) + average_percent_change_close) / 10
 
 
 

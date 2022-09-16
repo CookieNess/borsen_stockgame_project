@@ -58,6 +58,12 @@ def get_points_of_stock(csv_path):
         average_change_percent_close = percent_change_close.mean()
         apcc_points = calc_apcc_points(average_change_percent_close, average_volume, volume_today)
         total_points = rsi_points + support_points + apcc_points
+        # Debug, print out points
+        # print('RSI: ' + str(rsi))
+        # print('RSI-Points: ' + str(rsi_points))
+        # print('Support: ' + str(support_points))
+        # print('APCC: ' + str(apcc_points))
+        # print('Total: ' + str(total_points))
         stock_info_dict['total_points'] = total_points
         return stock_info_dict
 
