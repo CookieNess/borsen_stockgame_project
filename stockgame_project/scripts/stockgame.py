@@ -35,7 +35,7 @@ def get_points_of_stock(csv_path):
     close_price = market_data_df['Close'].iloc[-1]
     volume_today = market_data_df['Volume'].iloc[-1]
     rsi = get_rsi(average_gain_close, average_loss_close)
-    if rsi < 0:
+    if rsi < 1:
         rsi = 1
     stock_info_dict = {
             'close_price' : close_price,
@@ -47,7 +47,7 @@ def get_points_of_stock(csv_path):
             'average_loss_percent' : average_loss_close,
             'RSI' : rsi
         }
-    if (rsi > 70 or (close_price > resistance_price and average_loss_close != 0)):
+    if (rsi != 1 or average_loss_close != 0):
         is_buyable = False
         stock_info_dict['total_points'] = -1000
         return stock_info_dict
@@ -58,12 +58,6 @@ def get_points_of_stock(csv_path):
         average_change_percent_close = percent_change_close.mean()
         apcc_points = calc_apcc_points(average_change_percent_close, average_volume, volume_today)
         total_points = rsi_points + support_points + apcc_points
-        # Debug, print out points
-        # print('RSI: ' + str(rsi))
-        # print('RSI-Points: ' + str(rsi_points))
-        # print('Support: ' + str(support_points))
-        # print('APCC: ' + str(apcc_points))
-        # print('Total: ' + str(total_points))
         stock_info_dict['total_points'] = total_points
         return stock_info_dict
 

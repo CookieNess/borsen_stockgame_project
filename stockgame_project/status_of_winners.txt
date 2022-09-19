@@ -1,0 +1,92 @@
+19/09 - 2022 ----------------------------------------------------------------------------
+
+                        "stock0": {
+                            "stock_name": "BIOPOR.CO",
+                            "point_info": {
+                                "close_price": 1.72,
+                                "volume_today": 1043176,
+                                "support_price": 1.5112,
+                                "resistance_price": 1.6068000000000002,
+                                "average_volume": 613863.0,
+                                "average_gain_percent": 0.0528,
+                                "average_loss_percent": 0.0,
+                                "RSI": 1,
+                                "total_points": 3269.9793961431333
+                            },
+                            "total_points": 3269.9793961431333
+                        },
+        - Status:
+
+                        "stock1": {
+                            "stock_name": "CARY.ST",
+                            "point_info": {
+                                "close_price": 68.900002,
+                                "volume_today": 211549,
+                                "support_price": 67.30999879999999,
+                                "resistance_price": 68.33000059999999,
+                                "average_volume": 204384.6,
+                                "average_gain_percent": 0.3699997999999994,
+                                "average_loss_percent": 0.0,
+                                "RSI": 1,
+                                "total_points": 3203.5121953424373
+                            },
+                            "total_points": 3203.5121953424373
+                        },
+        - Status:
+
+                        "stock7": {
+                            "stock_name": "XBRANE.ST",
+                            "point_info": {
+                                "close_price": 88.0,
+                                "volume_today": 219138,
+                                "support_price": 80.440001,
+                                "resistance_price": 86.86000040000002,
+                                "average_volume": 62201.0,
+                                "average_gain_percent": 1.8199995999999998,
+                                "average_loss_percent": 0.0,
+                                "RSI": 1,
+                                "total_points": 3452.3343575808262
+                            },
+                            "total_points": 3452.3343575808262
+                        },
+
+        - Status:
+
+                        "stock8": {
+                            "stock_name": "NODL.OL",
+                            "point_info": {
+                                "close_price": 34.450001,
+                                "volume_today": 3072,
+                                "support_price": 32.359999800000004,
+                                "resistance_price": 33.9600008,
+                                "average_volume": 13732.4,
+                                "average_gain_percent": 0.3,
+                                "average_loss_percent": 0.0,
+                                "RSI": 1,
+                                "total_points": 3122.381717675641
+                            },
+                            "total_points": 3122.381717675641
+                        },
+        - Status:
+
+                        "stock9": {
+                            "stock_name": "XXL.OL",
+                            "point_info": {
+                                "close_price": 5.87,
+                                "volume_today": 526172,
+                                "support_price": 5.524,
+                                "resistance_price": 5.76,
+                                "average_volume": 311769.4,
+                                "average_gain_percent": 0.06600000000000002,
+                                "average_loss_percent": 0.0,
+                                "RSI": 1,
+                                "total_points": 3268.784226049573
+                            },
+                            "total_points": 3268.784226049573
+                        },
+        - Status:
+
+        - Biggest mover:
+        
+
+
