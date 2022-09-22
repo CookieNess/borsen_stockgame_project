@@ -8,7 +8,6 @@ packages = [{include = "trading_project"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-ccxt = "^1.93.43"
 pandas = "^1.4.4"
 DateTime = "^4.6"
 
