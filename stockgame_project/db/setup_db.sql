@@ -21,9 +21,5 @@ CREATE TABLE IF NOT EXISTS Prices (
 );
 
 SELECT * FROM Tickers;
-SELECT * FROM Prices
-DELETE FROM Prices;
-
-INSERT INTO Prices(LowPrice) VALUES (
-    (308.54)
-);
+SELECT * FROM Prices;
+DELETE FROM Tickers;
